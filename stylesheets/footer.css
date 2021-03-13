@@ -37,6 +37,9 @@ footer .top .container .right img{
     height: 30px;
 }
 
+footer .top .container .right img:last-of-type{
+    height: 23px;
+}
 
 @media(min-width: 2048px){
     footer .top .container, footer .botom .container{
