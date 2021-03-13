@@ -1,0 +1,33 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.figures a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.figures a:hover{
+    color: rgb(117, 115, 115);
+}
+
+
+
+#ki {
+    padding: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    color: grey;
+}
+
+
+/*-- Partie Footer --*/
+footer .botom .container div{
+    font-size: 12px;
+}
+#version{
+    font-weight: 300;
+}

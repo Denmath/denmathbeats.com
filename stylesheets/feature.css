@@ -1,0 +1,32 @@
+/*
+    Feuille de style de la page d'acceuil partie "feature"
+*/
+
+
+.feature{
+    height: 750px;
+}
+
+.feature .container{
+    width: 80vw;
+    color: #DDDEDD;
+    margin: 30px 0;
+}
+
+.feature .container .releases{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+
+.feature .container .releases .release img{
+    width: 150px;
+    height: 150px;
+    padding-right: 20px ;
+}
+
+h1 {
+    padding: 10px 0;
+    font-size: 34px;
+}

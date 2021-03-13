@@ -1,0 +1,152 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #131325;
+    display: flex;
+    justify-content: center;
+    z-index: 10000000;
+    position: fixed;
+    transition: 0.5s;
+    
+}
+
+.sticky{
+    height: 70px;
+    box-shadow: 0 1px 5px rgba(63, 63, 63, 0.74);
+}
+.sticky .toppage .logo-container img{
+    height: 30px;
+}
+.toppage{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .toppage .logo-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .toppage .logo-container img{
+    height: 45px;
+    align-self: center;   
+    transition: 0.5s;
+}
+
+
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav .nav-links {
+    height: 100%;
+    display: flex;
+    list-style: none;   
+    
+}
+
+nav .nav-links li{
+    height: 100%;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#crt{
+    width: 60px;
+}
+
+nav .nav-links li a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 70%;
+    text-align: center;
+    padding: 2px;
+    transition: 0.5s;
+}
+
+nav .nav-links li a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 6px;
+    color: #f9f9f9;
+    transition: 0.5s;
+}
+
+
+.selected{
+    background-color: #f9f9f9;
+    transition: 0.5s;
+}
+
+.selected a{
+    color: #131325 !important;
+    text-decoration: underline 2px !important;
+    text-underline-offset: 6px !important;
+    transition: 0.5s;
+
+}
+
+
+.burger{
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    display: none;
+}
+
+@media(min-width: 2048px){
+    header .toppage{
+        width: 2048px;
+    }
+}
+
+@media(max-width: 800px){
+    header{
+        height: 10vh;
+    }
+
+    header .toppage .logo-container{
+        width: 8%;
+    }
+    
+
+    header .toppage .logo-container a img {
+        height: 100%;
+        width: 100%;
+    }
+    nav .nav-links li{
+        width: 87px;
+    }
+}
+
+@media(max-width: 600px){
+    header{
+        height: 12vh;
+    }
+    nav{
+        display: none;
+
+    }
+    header .toppage .logo-container{
+        width: 10%;
+    }
+    
+
+    header .toppage .logo-container a img {
+        height: 100%;
+        width: 100%;
+    }
+
+    
+}

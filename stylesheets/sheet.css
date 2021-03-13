@@ -1,0 +1,155 @@
+/*
+    Feuille de style général à toutes les pages
+    v 1.0.5
+
+*/
+
+
+/*Style général de la page*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Ligne de délimitation*/
+md-divider{
+    display: block;
+    border-top: solid 0.1em rgb(180, 180, 180);
+}
+
+/*Largeur des élements sur la page*/
+.container{
+    width: 80vw;
+}
+
+.tag{
+    display: inline;
+}
+
+/* Styles des sections */
+section{
+    display: flex;
+    height: auto;  
+    background-color: #DDDEDD;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 5em;
+}
+
+section:first-of-type{
+    padding-top: 100px;
+}
+
+section:last-of-type{
+    padding-bottom: 5em;
+}
+
+section div h3 {
+    padding: 10px 0;
+    font-size: 34px;
+}
+
+/* Couleur d'arrière plan des sections contenant la classe .blue-bg */
+.blue-bg{
+    background-color: #131325;
+    padding-bottom: 5em;
+}
+
+.blue-bg h3,.blue-bg p {
+    color: #DDDEDD;
+    transition: 0.2s;
+}
+
+.blue-bg .container .figures-wrapper a:hover {
+    color: #b1b1b1;
+}
+
+.figures {
+    display: inline-block;
+    text-align: center;
+    color: rgb(226, 225, 225);
+    
+}
+.figures a div{
+    padding-bottom: 20px;
+}
+.figures img {
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+    box-shadow: 2px 10px 16px rgba(48, 48, 48, 0.74);
+}
+
+.figures-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+
+
+
+
+
+@media(max-width: 800px){
+    .divs-art{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2%;
+    }
+    .divs-fig{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2%;
+    }
+}
+@media(max-width: 500px){
+    .divs-art{
+        grid-template-columns: 1fr;
+    }
+    .divs-fig{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.top-continer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    padding: 50px 0;
+}
+
+@media(max-width: 800px){
+    .top-continer{
+        grid-template-columns: 1fr;
+    }
+    #improving{
+        padding: 20px 0;
+    }
+}
+
+#improving {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.perso{
+    overflow: auto;
+    display: flex;
+}
+
+.perso img{
+    border-radius: 50%;
+
+}
+
+.text-box{
+    float: left;
+}
+
+/*@media {
+    
+}*/

@@ -1,0 +1,139 @@
+<!-- Liscencing -->
+        <!--
+        <md-divider></md-divider>
+        <div class="options">
+            <div class="container">
+                <h3>Licensing Info</h3>
+                <div class="license-row">
+                    <div class="license-single">
+                        <div class="top-text">
+                            <span class="type">Basic (MP3 only)</span>
+                            <span class="price">39.99€</span>
+                            <span class="m">Per unit</span>
+                            <a href="" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                        <div class="middle-text">
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Buy one, get one free</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Untagged version</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">WAV version</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Include tackouts (stems)</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Music distribution on all platforms</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Unlimited Streams</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">1 Music video allowed</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Must Credit (prod. DENMATH)</p>
+                        </div>
+                    </div>
+
+                    <div class="license-single">
+                        <div class="top-text">
+                            <span class="type">Standard (MP3 + WAV)</span>
+                            <span class="price">59.99€</span>
+                            <span class="m">Per unit</span>
+                            <a href="" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                        <div class="middle-text">
+                            <p> <img src="projectfiles/g1422.png" alt="" height="10" width="10">Buy one, get one free</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Untagged version</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">WAV version</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Include tackouts (stems)</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Music distribution on all platforms</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Unlimited Streams</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">1 Music video allowed</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Must Credit (prod. DENMATH)</p>
+                        </div>
+                    </div>
+
+                    <div class="license-single">
+                        <div class="top-text">
+                            <span class="type">Premium (MP3 + WAV + stems)</span>
+                            <span class="price">89.99€</span>
+                            <span class="m">Per unit</span>
+                            <a href="" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                        <div class="middle-text">
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Buy one, get one free</p>
+                            <p><img src="projectfiles/g1422.png" alt="" height="10" width="10">Untagged version</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">WAV version</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Include tackouts (stems)</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Music distribution on all platforms</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Unlimited Streams</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">1 Music video allowed</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Must Credit (prod. DENMATH)</p>
+                        </div>
+                    </div>
+
+                    <div class="license-single">
+                        <div class="top-text">
+                            <span class="type">Exclusive Ownership</span>
+                            <span class="price">~</span>
+                            <span class="m">Make an offer</span>
+                            <a href="" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                        <div class="middle-text">
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Exclusive license to use the beat</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Untagged version</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">WAV version</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Include tackouts (stems)</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Music distribution on all platforms</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Unlimited Streams</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Unlimited Music videos allowed</p>
+                            <p><img src="projectfiles/g1421.png" alt="" height="10" width="10">Must Credit (prod. DENMATH)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="additional">
+                    <h4>Additional Services</h4>
+                    <div class="service-wrapper">
+                        <div id="marge">
+                            <div class="inner-row">
+                                <div class="service-single">
+                                    <h5>Studio Session</h5>
+                                    <div class="inner-single">
+                                        <div class="little">
+                                            <div class="img">
+                                                <img  src="images/black-headset-on-condenser-microphone-3587478.jpg" alt="Sudio session informative image">
+                                            </div>
+                                            <p>
+                                                Recording your voice is putting your DNA into the music you're willing to create. 
+                                            </p>
+                                            <a href="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="service-single">
+                                    <h5>Mixing & Mastering</h5>
+                                    <div class="inner-single">
+                                        <div class="little">
+                                            <div class="img">
+                                                <img  src="images/person-adjusting-audio-of-a-sound-mixer-3531867.jpg" alt="Mixing informative image">
+                                            </div>
+                                            <p>
+                                                When crating a sound track, the mixing and mastering process are important. Bringing you the commercial sound you hear on the radio.
+                                            </p>
+                                            <a href="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="service-single">
+                                    <h5>Collaboration Beats</h5>
+                                    <div class="inner-single">
+                                        <div class="little">
+                                            <div class="img">
+                                                <img src="images/white-and-black-electronic-piano-744322.jpg" alt="Collaboration informative image">
+                                            </div>
+                                            <p>
+                                                Collaboration beats are a key to reniew your creativity with music.
+                                            </p>
+                                            <a href="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <p>Any Questions?</p>
+                <p>Contact me at <a href="mailto:denmath.beats@gmail.com?subject=QUESTION : Beat Licences" target="_self" data-content="denmath.beats@gmail.com" data-type="mail">denmath.beats@gmail.com</a></p>
+            </div>
+        </div>
+        <!--Liscencing end-->
