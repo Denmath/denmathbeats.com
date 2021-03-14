@@ -20,7 +20,7 @@
     <header>
         <div class="toppage">
             <div class="logo-container"><a href="#">
-                <img src="images/DM.png" alt="Denmath logo"></a>
+                <img src="images/denmath.png" alt="Logo"></a>
             </div>
 
             <nav>
@@ -36,34 +36,57 @@
         </div>
     </header>
     <!-- END Header-->
-
+    <div class="separator"style="padding:50px; background-color: #e6e7e6;"></div>
     <!-- Page Content-->
     <main>
         <!--Feature div-->
-        <section class="feature blue-bg">
+        <section class="feature">
             <div class="container">
-                <h1>Latest realease</h1>
+                <h3>Productions Récentes</h3>
                 <div class="releases">
                     
                     <div class="release">
-                        <h2>Sortie 1</h2>
+                        <h6>Titre sortie</h6>
                         <p><strong>#TRAP  #AFROTRAP</strong></p>
-                        <iframe width=100% height=350 src="https://www.youtube.com/embed/PkfidJ6EMFE" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/PkfidJ6EMFE" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p>Sortie il y a 2 jours</p>
                     </div>
 
                     <div class="release">
-                        <h2>Sortie 2</h2>
+                        <h6>Titre sortie</h6>
                         <p><strong>#CHILL</strong></p>
-                        <iframe width=auto height=350 src="https://www.youtube.com/embed/7_oP_Ukhuzs" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/7_oP_Ukhuzs" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p>Sortie il y a 7 jours</p>
                     </div>
 
                     <div class="release">
-                        <h2>Sortie 3</h2>
+                        <h6>Titre sortie</h6>
                         <p><strong>#DRILL</strong></p>
-                        <iframe width=auto height=350 src="https://www.youtube.com/embed/S7jckYd0-tU" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/S7jckYd0-tU" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p>Sortie il y a 2 semaines</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End feature div-->
+        <md-divider></md-divider>
+        <!--Popular div-->
+        <section class="feature blue-bg"  id="two">
+            <div class="container">
+                <h3>Sorties Populaires</h3>
+                <div class="releases">
+                    <div class="release">
+                        <h6>Titre sortie</h6>
+                        <p><strong>#TRAP  #AFROTRAP</strong></p>
+                        <iframe src="https://www.youtube.com/embed/PkfidJ6EMFE" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Sortie il y a 7 jours</p>
+                    </div>
+
+                    <div class="release">
+                        <h6>Titre sortie</h6>
+                        <p><strong>#CHILL</strong></p>
+                        <iframe src="https://www.youtube.com/embed/7_oP_Ukhuzs" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Sortie il y a 12 mois</p>
                     </div>
                 </div>
             </div>
@@ -73,12 +96,25 @@
         <!--Beats Type -->
         <section class="beatype">
             <div class="container">
-                <h3>Beat Types</h3>
+                <h3>Types d'intrumentales</h3>
                 <div class="genres-wrapper">
                     <div class="genre">
-                        <p>DRILL</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore pariatur incidunt ex, suscipit impedit placeat dolore reprehenderit ut. Eum, facere!
-                        </p>
+                        <h6>Genre</h6>
+                        <span>Lorem ipsum dolor sit</span>
+                        <p>Intrus similaires</p>
+                    </div>
+                    <div class="genre">
+                        <h6>Genre</h6>
+                        <span>Lorem ipsum dolor sit</span>
+                        <p>Intrus similaires</p>
+                    </div>
+                    <div class="genre">
+                        <h6>Genre</h6>
+                        <span>Lorem ipsum dolor sit</span>
+                        <p>Intrus similaires</p>
+                    </div>
+                    <div class="genre">
+                        <h6>Plus de genres</h6>
                     </div>
                 </div>
             </div>
@@ -87,7 +123,7 @@
 
         <md-divider></md-divider>
         <!--Clients section-->
-        <section class="Artists blue-bg">
+        <section class="Artists">
             <div class="container">
                 <h3>Featured Artists</h3>
                 <div class="figures-wrapper">
@@ -127,7 +163,7 @@
         <!--Client section end-->
         <md-divider></md-divider>
         <!--Collaboration section-->
-        <section class="collab blue-bg">
+        <section class="collab">
             <div class="container">
                 <h3>Collaborations</h3>
                 <div class="figures-wrapper">
@@ -163,7 +199,41 @@
         <md-divider></md-divider>
         <section>
             <div class="container">
-                Insert call to action here
+                <h3>Purchase your tracks today !</h3>
+
+                <div class="formholder">
+                    <form action="" method="#">
+                        <ul>
+                            <li id="li_2" >
+                                <label class="description" for="element_2">Full Name </label>
+                                <span>
+                                    <input id="element_2_1" name= "element_2_1" class="element text" maxlength="255" size="8" value=""/>
+                                    <label>Full Name</label>
+                                </span>
+                            </li>		
+                            <li id="li_3" >
+                                <label class="description" for="element_3">Artist Name </label>
+                                <div>
+                                    <input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
+                                </div><p class="guidelines" id="guide_3"><small>Artist Name</small></p> 
+                            </li>		
+                            
+                            <li id="li_1" >
+                                <label class="description" for="element_1">Email </label>
+                                <div>
+                                    <input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/> 
+                                </div> 
+                            </li>		
+                            <li id="li_4" >
+                                <label class="description" for="element_4">Project description </label>
+                                <div>
+                                    <textarea id="element_4" name="element_4" class="element textarea medium"></textarea> 
+                                </div> 
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                
             </div>
         </section>
         
@@ -176,12 +246,12 @@
             <div class="container">
                 <div class="left">
                     <a href="#">
-                        <img src="/images/DM.png" alt="Logo">
+                        <img src="images/denmath.png" alt="Logo">
                     </a>
                 </div>
                 <div class="right">
                     <a href="https://soundcloud.com/denmath"><img src="/images/soundcloud.svg" alt="Soundcloud"></a>
-                    <a href="https://www.youtube.com/channel/UCXXeAKb-MH1Pov_XKk3D1-g"><img src="/images/youtube.svg" alt="Youtube.com"></a>
+                    <a href="https://www.youtube.com/channel/UCXXeAKb-MH1Pov_XKk3D1-g"><img src="/images/youtube.svg" alt="Youtube"></a>
                     <a href="https://www.instagram.com/prod.denmath/"><img src="/images/instagram.svg" alt="Instagram"></a>
                 </div>
             </div>

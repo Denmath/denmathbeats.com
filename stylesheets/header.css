@@ -1,3 +1,5 @@
+/*Style général du menu*/
+
 header{
     width: 100%;
     height: 100px;
@@ -10,12 +12,13 @@ header{
     
 }
 
+
 .sticky{
     height: 70px;
     box-shadow: 0 1px 5px rgba(63, 63, 63, 0.74);
 }
 .sticky .toppage .logo-container img{
-    height: 30px;
+    height: 17px;
 }
 .toppage{
     width: 80vw;
@@ -32,7 +35,8 @@ header .toppage .logo-container a{
 }
 
 header .toppage .logo-container img{
-    height: 45px;
+    height: 20px;
+    width: auto;
     align-self: center;   
     transition: 0.5s;
 }

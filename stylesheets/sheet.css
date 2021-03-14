@@ -30,23 +30,31 @@ md-divider{
 section{
     display: flex;
     height: auto;  
-    background-color: #DDDEDD;
-    justify-content: center;
+    background-color: #e6e7e6;
+    justify-content: space-evenly;
     box-sizing: border-box;
-    padding-top: 5em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 
-section:first-of-type{
-    padding-top: 100px;
-}
+
 
 section:last-of-type{
     padding-bottom: 5em;
 }
 
 section div h3 {
-    padding: 10px 0;
-    font-size: 34px;
+    font-size: 48px;
+    align-self: center;
+    color:#131325;
+}
+
+/*Style des sections dernières sorties et sorties populaires*/
+.releases{
+    display: flex;
+    justify-self: space-between;
+    justify-content: space-around;
+    box-sizing: border-box;
 }
 
 /* Couleur d'arrière plan des sections contenant la classe .blue-bg */
@@ -64,27 +72,98 @@ section div h3 {
     color: #b1b1b1;
 }
 
+
+/*Style du conteneur des figures*/
+.figures-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*Style des figures*/
+
 .figures {
     display: inline-block;
     text-align: center;
     color: rgb(226, 225, 225);
     
 }
+
+/*Style du texte dans figures*/
+.figures a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+.figures a:hover{
+    color: rgb(37, 37, 37);
+    -webkit-transition: .3s ease-in-out;
+    font-weight: bold;
+}
+
 .figures a div{
     padding-bottom: 20px;
 }
+
+/* Taille des images dans figures */
 .figures img {
-    border-radius: 5%;
-    height: 250px;
-    width: 250px;
-    box-shadow: 2px 10px 16px rgba(48, 48, 48, 0.74);
+    height: 15em;
+    width: 15em;
 }
 
-.figures-wrapper{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 80px;
+
+
+/*Zoom sur les figures*/
+.figures div img
+{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .2 ease-in-out;
 }
+
+.figures div:hover img
+{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.115);
+    box-shadow: 2px 4px 8px #131325;
+}
+
+
+/* Intégration des vidéos */
+iframe{
+    width: 25vw;
+    height: 43vh;
+}
+
+/* Style de la partie genre */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
