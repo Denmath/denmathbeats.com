@@ -199,38 +199,30 @@
         <md-divider></md-divider>
         <section>
             <div class="container">
-                <h3>Purchase your tracks today !</h3>
+                <h3>Commandes ta prod !</h3>
 
-                <div class="formholder">
+                <div class="formulaire">
                     <form action="" method="#">
-                        <ul>
-                            <li id="li_2" >
-                                <label class="description" for="element_2">Full Name </label>
-                                <span>
-                                    <input id="element_2_1" name= "element_2_1" class="element text" maxlength="255" size="8" value=""/>
-                                    <label>Full Name</label>
-                                </span>
-                            </li>		
-                            <li id="li_3" >
-                                <label class="description" for="element_3">Artist Name </label>
-                                <div>
-                                    <input id="element_3" name="element_3" class="element text medium" type="text" maxlength="255" value=""/> 
-                                </div><p class="guidelines" id="guide_3"><small>Artist Name</small></p> 
-                            </li>		
-                            
-                            <li id="li_1" >
-                                <label class="description" for="element_1">Email </label>
-                                <div>
-                                    <input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""/> 
-                                </div> 
-                            </li>		
-                            <li id="li_4" >
-                                <label class="description" for="element_4">Project description </label>
-                                <div>
-                                    <textarea id="element_4" name="element_4" class="element textarea medium"></textarea> 
-                                </div> 
-                            </li>
-                        </ul>
+                        <div class="boutons">
+            
+                        <label for="nom">Nom :</label> <br>
+                        <input id="nom" type="text" name="usernamefamily" placeholder="ex: Durand" required="required"/> 	
+            
+                        <label for="prenom">Prénom :</label> <br>
+                        <input id="prenom" type="text" name="username" placeholder="ex: Jean" required="required"/> 
+            
+                        <label for="artiste">Nom d'artiste :</label> <br>
+                        <input id="artiste" type="text" name="username" placeholder="ex: Denmath"/>
+            
+                        <label for="email">E-mail :</label> <br>
+                        <input id="email" type="email"  name="email" placeholder="exemple@mail.com" required="required">
+            
+                        <label for="texte">Laissez un court message</label> <br>
+                        <textarea id="texte" name="msg" maxlength="480" rows="10" cols="50" min="12" max="120" placeholder="Indiquez l'instrumental recherché (le type, le tempo, la durée)."></textarea>
+            
+                    </div>
+            
+                        <input type="submit" value="Envoyer">
                     </form>
                 </div>
                 

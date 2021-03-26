@@ -11,6 +11,12 @@
     padding: 0px;
 }
 
+/* Couleur du texte surligné */
+::-moz-selection, ::selection{
+    color: #DDDEDD;
+    background-color: #131325;
+}
+
 /*Ligne de délimitation*/
 md-divider{
     display: block;
@@ -37,6 +43,11 @@ section{
     padding-bottom: 2.5em;
 }
 
+section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 section:last-of-type{
@@ -52,9 +63,11 @@ section div h3 {
 /*Style des sections dernières sorties et sorties populaires*/
 .releases{
     display: flex;
-    justify-self: space-between;
+    justify-items: center;
     justify-content: space-around;
     box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* Couleur d'arrière plan des sections contenant la classe .blue-bg */
@@ -63,7 +76,7 @@ section div h3 {
     padding-bottom: 5em;
 }
 
-.blue-bg h3,.blue-bg p {
+.blue-bg h3,.blue-bg p, .blue-bg h6 {
     color: #DDDEDD;
     transition: 0.2s;
 }
@@ -133,16 +146,111 @@ section div h3 {
 
 
 /* Intégration des vidéos */
-iframe{
-    width: 25vw;
-    height: 43vh;
+@media screen and (min-device-height: 1080px){
+    iframe{
+        aspect-ratio: 16/9;
+        width: 100%;
+    }
+    
+}
+
+.release {
+    width: 30%;
+    height: 100%;
 }
 
 /* Style de la partie genre */
+.genres-wrapper{
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.genre{
+    height: 200px;
+    width: 340px;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: #AAAA;
+    justify-content: center;
+    align-items: center;    
+}
+
+.genre .h6{
+    font-size: 12px;
+}
+
+
+/*FORMULAIRE*/
 
 
 
+.formulaire input, textarea
+{
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px
+}
 
+label
+{
+    font-size: 25px;
+}
+
+textarea
+{
+    resize: none;
+    font-size: 25px;
+}
+
+input
+{
+    height: 40px;
+    width: 400px;
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+
+input:hover
+{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+textarea
+{
+    transition: all 0.3s ease;
+}
+
+textarea:hover
+{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+/*bouton d'envoie*/
+input[type=submit]
+{
+    background-color: #131325;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    transition: 0.1s
+}
+
+input[type=submit]:hover
+{
+    background-color: grey;
+}
 
 
 
