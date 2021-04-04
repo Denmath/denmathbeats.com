@@ -68,6 +68,7 @@ section div h3 {
     box-sizing: border-box;
     padding-top: 40px;
     padding-bottom: 40px;
+    height: 90%;
 }
 
 /* Couleur d'arrière plan des sections contenant la classe .blue-bg */
@@ -112,6 +113,7 @@ section div h3 {
 
 .figures a:hover{
     color: rgb(37, 37, 37);
+    transition: .3s ease-in-out;
     -webkit-transition: .3s ease-in-out;
     font-weight: bold;
 }
@@ -125,9 +127,26 @@ section div h3 {
     height: 15em;
     width: 15em;
 }
+@media (max-width: 1650px){
+    .figures img {
+        height: 11em;
+        width: 11em;
+    }   
+}
 
+@media (max-width: 1250px){
+    .figures img {
+        height: 8em;
+        width: 8em;
+    }   
+}
 
-
+@media (max-width: 850px){
+    .figures img {
+        height: 6em;
+        width: 6em;
+    }   
+}
 /*Zoom sur les figures*/
 .figures div img
 {
@@ -146,10 +165,10 @@ section div h3 {
 
 
 /* Intégration des vidéos */
-@media screen and (min-device-height: 1080px){
+@media screen and (max-device-height: 1080px){
     iframe{
-        aspect-ratio: 16/9;
         width: 100%;
+        height: 120%;
     }
     
 }
@@ -161,16 +180,34 @@ section div h3 {
 
 /* Style de la partie genre */
 .genres-wrapper{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     width: 80vw;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     padding-top: 40px;
     padding-bottom: 40px;
+    align-content: space-evenly;
+    height: 80%;
+    box-sizing: content-box;
 }
 
+@media (max-width: 1200px){
+   .genres-wrapper{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10% 0;
+    justify-items: center;
+   } 
+}
+@media (max-width: 750px){
+    .genres-wrapper{
+     grid-template-columns: 1fr;
+     gap: 3% 0;
+    } 
+ }
+
 .genre{
-    height: 200px;
-    width: 340px;
+    height: 70%;
+    width: 90%;
     border-radius: 1%;
     display: flex;
     flex-direction: column;
@@ -186,8 +223,17 @@ section div h3 {
 
 /*FORMULAIRE*/
 
-
-
+/*#contact .container {
+    position: relative;
+    
+}
+.formulaire{
+    position: absolute;
+    box-sizing: border-box;
+}*/
+form{
+    box-sizing: border-box;
+}
 .formulaire input, textarea
 {
     display: block;
@@ -216,12 +262,12 @@ input
     transition: all 0.3s ease;
 }
 
-input:hover
+/*input:hover
 {
     margin-bottom: 15px;
     margin-top: 5px;
     padding: 5px;
-}
+}*/
 
 
 textarea
@@ -252,6 +298,17 @@ input[type=submit]:hover
     background-color: grey;
 }
 
+@media(max-width: 1200px){
+
+    textarea{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+    }
+
+}
 
 
 
@@ -263,7 +320,10 @@ input[type=submit]:hover
 
 
 
-
+* iframe{
+    border: none;
+    height: 80%;
+}
 
 
 

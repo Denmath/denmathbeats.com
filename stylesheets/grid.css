@@ -1,0 +1,102 @@
+
+.select {
+	display: grid;
+	align-self: center;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 2.5%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	
+}
+
+.select a {
+	padding: 2.5%;
+	color: white;
+	text-align:center;
+	background-color:#5a5a57;
+	transition: 0.2s ease-in-out;
+}
+
+.select a:hover {
+	background-color: #0a0a57;
+}
+
+/*section#trig1 {
+	display:none;
+}
+
+section#trig2 {
+	display:none;
+}
+
+section#trig3 {
+	display:none;
+}*/
+
+#samples .cards > .container .card-wrapper{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto auto;
+	grid-column-gap: 4%;
+	grid-row-gap: 4%;
+	padding-bottom: 5em;
+} 
+
+section#trig1:target > .container .card-wrapper, section#trig2:target > .container .card-wrapper, section#trig3:target > .container .card-wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto auto;
+	grid-column-gap: 4%;
+	grid-row-gap: 4%;
+	padding-bottom: 5em;
+}
+
+
+
+
+
+.mono{
+	padding: 35%;
+    font-size: 200%;
+    color: white;
+	text-align:center;
+    background-color: #333;
+	border-radius: 5% 5% 0 0;
+}
+
+.name{
+	padding: 10% 25%;
+	color: white;
+	text-align:center;
+	background-color: #8a8a87;
+}
+
+.buy{
+	text-align:left;
+	padding: 5% 15%;
+	color : white;
+	text-align:center;
+    font-size: 1em;
+	background-color: #131325;
+	border-radius: 0 0 16px 16px;
+}
+
+.semibig{
+	font-size: 125%;
+}
+	
+.big{
+	font-size: 200%;
+}
+
+.plus{
+
+	max-width: 500 px;
+	margin: 0 4em;
+	padding: 0.5em 29.5em 0.5em 29.5em;
+	font-size: 1.2em;
+	background-color: lightgrey;
+	font-weight: bold;
+	border-radius: 8px;
+	
+}
