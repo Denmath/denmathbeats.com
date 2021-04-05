@@ -1,7 +1,6 @@
 
 .select {
 	display: grid;
-	align-self: center;
 	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 2.5%;
 	padding-top: 20px;
@@ -40,6 +39,7 @@ section#trig3 {
 	grid-column-gap: 4%;
 	grid-row-gap: 4%;
 	padding-bottom: 5em;
+	padding-top: 43px;
 } 
 
 section#trig1:target > .container .card-wrapper, section#trig2:target > .container .card-wrapper, section#trig3:target > .container .card-wrapper {

@@ -15,7 +15,7 @@ header{
 
 .sticky{
     height: 70px;
-    box-shadow: 0 1px 5px rgba(63, 63, 63, 0.74);
+    box-shadow: 0 1px 5px rgba(63, 63, 63, 0.836);
 }
 .sticky .toppage .logo-container img{
     height: 17px;
@@ -26,6 +26,28 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.cartpage{
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    top: 100px; 
+    right: 0; 
+    height: 200px; 
+    width: 500px;
+    background-color:rgba(206, 201, 201, 0.918);
+    transition: 0.5s;
+}
+.blank{
+    display: none;
+}
+
+.topcart{
+    top: 70px;
+}
+.cartpage button{
+    align-self: flex-end;
 }
 
 header .toppage .logo-container a{
